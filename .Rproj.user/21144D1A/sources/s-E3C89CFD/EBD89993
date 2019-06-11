@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1560228982819.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "EBD89993",
+    "lastKnownWriteTime" : 1560282627,
+    "last_content_update" : 1560282627379,
+    "path" : "~/Documents/myweb/email-lhe.github.io/contactme.Rmd",
+    "project_path" : "contactme.Rmd",
+    "properties" : {
+        "cursorPosition" : "2,3",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

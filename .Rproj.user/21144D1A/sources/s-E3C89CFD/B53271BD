@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1560225065524.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B53271BD",
+    "lastKnownWriteTime" : 1560282635,
+    "last_content_update" : 1560282635650,
+    "path" : "~/Documents/myweb/email-lhe.github.io/myresearch.Rmd",
+    "project_path" : "myresearch.Rmd",
+    "properties" : {
+        "cursorPosition" : "7,0",
+        "scrollLine" : "8"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

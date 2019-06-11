@@ -1,0 +1,48 @@
+
+# --- General options --- #
+
+# Name of website
+title: Liyuan's personal website
+bigimg: [{src: "/img/memory_white_mountain.JPG", desc: "Sweet memories with my cohort at the White Mountain peak (2018)"}]
+
+# Short description of your site
+url: "http://liyuan_he.github.io"
+baseurl: ""
+description: A blog recording updates and memories
+
+
+# --- Navigation bar options --- #
+
+output_dir: "."
+
+# List of links in the navigation bar
+navbar:
+    title: "Home"
+    left:
+      - text: "About Me"
+        href: aboutme.html
+      - text: "My Research"
+        href: myresearch.html
+      - text: "Download"
+        href: download.html
+      - text: "Contact Me"
+        href: contactme.html
+
+
+# Image to show in the navigation bar - image must be a square (width = height)
+
+avatar: "/img/me.jpg"
+
+
+#----Background Color/Image Options----#
+
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
