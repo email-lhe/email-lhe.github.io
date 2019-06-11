@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1052879730",
+    "hash" : "0",
     "id" : "512C9C8E",
-    "lastKnownWriteTime" : 1560283176,
-    "last_content_update" : 1560283176918,
+    "lastKnownWriteTime" : 1560283356,
+    "last_content_update" : 1560283356303,
     "path" : "~/Documents/myweb/email-lhe.github.io/aboutme.Rmd",
     "project_path" : "aboutme.Rmd",
     "properties" : {
-        "cursorPosition" : "7,4",
+        "cursorPosition" : "9,33",
         "scrollLine" : "0"
     },
     "read_only" : false,
