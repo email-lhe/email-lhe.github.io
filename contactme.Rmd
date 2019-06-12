@@ -2,23 +2,24 @@
 title: "Contact Liyuan"
 ---
 <br>
-<left> <font color="#151100"> <font size=10x>**Contact information**
+<left> <font color="#151100"> <font size=6x>**Contact information**
 <br>
 
-<left> <font size=6x>  <i class="fa fa-envelope-square" aria-hidden="true"></i> [email](mailto:lyhe2012@gmail.com)  
-[<left> <font size=6x> <i class="fa fa-globe" aria-hidden="true"></i> GitHub](https://github.com/email-lhe/)  
-[<left> <font size=6x> <i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter](https://twitter.com/he_liyuan/)
+<left> <font size=4x>  <i class="fa fa-envelope-square" aria-hidden="true"></i> [email](mailto:lyhe2012@gmail.com)  
+[<left> <font size=4x> <i class="fa fa-globe" aria-hidden="true"></i> GitHub](https://github.com/email-lhe/)  
+[<left> <font size=4x> <i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter](https://twitter.com/he_liyuan/)
 <br>
-[<left> <font size=6x> <i class="fa fa-Facebook-square" aria-hidden="true"></i> Facebook](https://www.facebook.com/ucasbusiniao)
+[<left> <font size=4x> <i class="fa fa-Facebook-square" aria-hidden="true"></i> Facebook](https://www.facebook.com/ucasbusiniao)
 <br>
-</font> <font color="#151100"> <font size=10x>**Current Address**
+<br>
+</font> <font color="#151100"> <font size=6x>**Current Address**
 <br>
 
-## <left> <font size=6x> Plant Environmental Science Building 3316
+## <left> <font size=4x> Plant Environmental Science Building 3316
 
-## <left> <font size=6x> Land, Air and Water Resources Department
+## <left> <font size=4x> Land, Air and Water Resources Department
 
-## <left> <font size=6x> University of California, Davis
+## <left> <font size=4x> University of California, Davis
 
-## <left> <font size=6x> 1 Shields Ave, Davis, CA 95616
+## <left> <font size=4x> 1 Shields Ave, Davis, CA 95616
 

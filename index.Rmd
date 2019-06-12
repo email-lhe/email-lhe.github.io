@@ -6,7 +6,7 @@ date: "Updated: `r format(Sys.Date())`"
 
 <br>
 
-## <font color="#DAAA00"> <font size=24x> </font>**Not everyone has the chance of study, so feel proud and lucky to learn!** ## {-}
+## <font color="#DAAA00"> <font size=24x> </font>**Not everyone has the chance to study, so feel proud and lucky to learn!** ## {-}
 
 <br> 
 

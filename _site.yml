@@ -3,11 +3,6 @@
 
 # Name of website
 title: Liyuan's personal website
-bigimg: [{src: "/img/memory_white_mountain.JPG", desc: "Sweet memories with my cohort at the White Mountain peak (2018)"}]
-
-# Short description of your site
-url: "http://liyuan_he.github.io"
-baseurl: ""
 description: A blog recording updates and memories
 
 
