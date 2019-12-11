@@ -5,13 +5,9 @@ title: "Liyuan's research"
 <left> <font size=4x> **Liyuan is working on improving the modeling performance of carbon cycle using clm-microbe in the perpective of soil microbes. Such findings can hopefully contribute to improve our understanding of the role of soil microbes in carbon cycle and soil processes.**
 <br>
 <br>
-<center> ## <font size=8x> **My labs**
+<center> ## <font size=8x> **My lab**
 <center> ## <font size =6x> **Xu's Lab**
 ## (<font color="#DAAA00"><font size =18x></font>**E**</font>cological <font color="#DAAA00">**M**</font>odeling <font color="#DAAA00">**A**</font>nd <font color="#DAAA00">**I**</font>ntegration <font color="#DAAA00">**L**</font>ab) {-}
 [![Xu's Lab](img/email.png){width=600px}](http://sci.sdsu.edu/emaillab/)
 <br>
 <br>
-<center> ## <font size =6x> **Rodrigues's Lab**
-
-## (<font color="#DAAA00"><font size =18x></font>**S**</font>oil <font color="#DAAA00">**E**</font>co**<font color="#DAAA00">G**</font>enomics <font color="#DAAA00">**L**</font>abratory) {-}
-[![Rodrigues's Lab](img/sel.png){width=600px}](http://rodrigues.ucdavis.edu/index.html)
