@@ -4,7 +4,7 @@ title: "Liyuan's research"
 ---
 <br>
 <br>
-<left> <font size=5x> **Liyuan is working on improving the modeling performance of carbon cycle using clm-microbe in the perpective of soil microbes. Such findings can hopefully contribute to improve our understanding of the role of soil microbes in carbon cycle and soil processes.**
+<left> <font size=5x> **Liyuan is working on improving the modeling performance of carbon cycle using clm-microbe in the perspective of soil microbes. Such findings can hopefully contribute to improve our understanding of the role of soil microbes in carbon cycle and soil processes.**
 <br>
 <br>
 <br>
