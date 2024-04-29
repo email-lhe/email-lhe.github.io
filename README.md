@@ -1,1 +1,1 @@
-# Thi is Liyuan's personal website.
+# This is Liyuan's personal website.
