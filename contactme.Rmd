@@ -15,11 +15,11 @@ title: "Contact Liyuan"
 </font> <font color="#151100"> <font size=6x>**Current Address**
 <br>
 
-## <left> <font size=4x> Plant Environmental Science Building 3316
+## <left> <font size=4x> Physical Science Building PS252
 
-## <left> <font size=4x> Land, Air and Water Resources Department
+## <left> <font size=4x> Department of Life Science
 
-## <left> <font size=4x> University of California, Davis
+## <left> <font size=4x> San Diego State University
 
-## <left> <font size=4x> 1 Shields Ave, Davis, CA 95616
+## <left> <font size=4x> 5500 Campanile Drive, San Diego, CA 92182
 
