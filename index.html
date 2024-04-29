@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
 <title>Liyuan’s personal website</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -41,32 +55,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 
 
@@ -77,13 +67,8 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -97,40 +82,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -158,7 +119,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -170,7 +131,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -180,11 +141,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -196,13 +174,12 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -210,16 +187,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -232,6 +202,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -243,18 +214,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -274,7 +233,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -303,85 +262,136 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
 <h1 class="title toc-ignore">Liyuan’s personal website</h1>
-<h4 class="date">Updated: 2019-12-11</h4>
+<h4 class="date">Updated: 2024-04-29</h4>
 
 </div>
 
 
 <p><br></p>
-<div id="not-everyone-has-the-chance-to-study-so-feel-proud-and-lucky-to-learn" class="section level2 unnumbered">
-<h2><font color="#DAAA00"> <font size=24x> </font><strong>Not everyone has the chance to study, so feel proud and lucky to learn!</strong></h2>
+<div
+id="not-everyone-has-the-chance-to-study-so-feel-proud-and-lucky-to-learn"
+class="section level2 unnumbered">
+<h2 class="unnumbered"><font color="#DAAA00"> <font size=24x>
+</font><strong>Not everyone has the chance to study, so feel proud and
+lucky to learn!</strong></h2>
 <p><br></p>
 <div id="appreciated-learning-resources" class="section level3">
-<h3><font color="#151100"> <font size=20x></font> Appreciated Learning Resources</h3>
-<p><left> <font size=20x> </font>There are abudant resources online and in print for learning modeling, stasts, and coding in my perspective. Hopefully, this list can give you a hint and serve as a launching pad for some very useful website and talks. <br></p>
+<h3><font color="#151100"> <font size=20x></font> Appreciated Learning
+Resources</h3>
+<p><left> <font size=20x> </font>There are abudant resources online and
+in print for learning modeling, stasts, and coding in my perspective.
+Hopefully, this list can give you a hint and serve as a launching pad
+for some very useful website and talks. <br></p>
 </div>
 </div>
 <div id="section" class="section level2 tabset tabset-fade">
-<h2></h2>
+<h2 class="tabset tabset-fade"></h2>
 <div id="modeling-resoures" class="section level3">
 <h3><em>Modeling resoures</em></h3>
 <ul>
-<li><a href="https://github.com/email-clm/clm-microbe">Community Land model-Microbe</a></li>
-<li><a href="https://github.com/email-clm/Millennial">Millennial model</a></li>
-<li><a href="https://github.com/email-clm/WEM">Wetland Ecosystem Model</a></li>
-<li><a href="https://github.com/ESCOMP/ctsm">Community Terrestrial Systems Model</a></li>
+<li><a href="https://github.com/email-clm/clm-microbe">Community Land
+model-Microbe</a></li>
+<li><a href="https://github.com/email-clm/Millennial">Millennial
+model</a></li>
+<li><a href="https://github.com/email-clm/WEM">Wetland Ecosystem
+Model</a></li>
+<li><a href="https://github.com/ESCOMP/ctsm">Community Terrestrial
+Systems Model</a></li>
 </ul>
 </div>
 <div id="r-lessons-tutorials" class="section level3">
 <h3><em>R Lessons &amp; Tutorials</em></h3>
 <ul>
-<li><a href="https://github.com/dsidavis/RBeyondBasics">R Beyond Basics</a></li>
-<li><a href="https://github.com/MicheleTobias/MaptimeDavis">Map time Davis</a></li>
-<li><a href="https://ryanpeek.github.io/mapping-in-R-workshop/">Mapping in R</a></li>
-<li><a href="http://www.datacarpentry.org/R-ecology-lesson/05-r-and-databases.html">Data Carpentry: R and SQL</a></li>
-<li><a href="http://data-lessons.github.io/gapminder-R/">Software Carpentry: <strong>R for Reproducible Scientific Analysis</strong></a></li>
-<li><a href="http://www.datacarpentry.org/R-ecology-lesson/">Data Carpentry: <strong>R for Data Analysis and Visualization of Ecological Data</strong></a></li>
-<li><a href="http://www.datacarpentry.org/spreadsheet-ecology-lesson/">Data Carpentry: <strong>Data Organization in Spreadsheets</strong></a></li>
-<li><a href="https://jasonjwilliamsny.github.io/tidiness-genomics/">Data Carpentry: <strong>Genomics Lesson</strong></a></li>
-<li><a href="http://angus.readthedocs.io/en/2017/index.html">ANGUS: <strong>Analyzing High Throughput Sequencing Data; Exploratory RNAseq data analysis using RMarkdown</strong></a></li>
-<li><a href="https://www.rstudio.com/resources/webinars/"><strong>RStudio Webinars</strong>, many topics</a></li>
-<li><a href="https://ourcodingclub.github.io/"><strong>Coding Club</strong>, great resource with many tutorials</a></li>
+<li><a href="https://github.com/dsidavis/RBeyondBasics">R Beyond
+Basics</a></li>
+<li><a href="https://github.com/MicheleTobias/MaptimeDavis">Map time
+Davis</a></li>
+<li><a href="https://ryanpeek.github.io/mapping-in-R-workshop/">Mapping
+in R</a></li>
+<li><a
+href="http://www.datacarpentry.org/R-ecology-lesson/05-r-and-databases.html">Data
+Carpentry: R and SQL</a></li>
+<li><a href="http://data-lessons.github.io/gapminder-R/">Software
+Carpentry: <strong>R for Reproducible Scientific
+Analysis</strong></a></li>
+<li><a href="http://www.datacarpentry.org/R-ecology-lesson/">Data
+Carpentry: <strong>R for Data Analysis and Visualization of Ecological
+Data</strong></a></li>
+<li><a
+href="http://www.datacarpentry.org/spreadsheet-ecology-lesson/">Data
+Carpentry: <strong>Data Organization in Spreadsheets</strong></a></li>
+<li><a href="https://jasonjwilliamsny.github.io/tidiness-genomics/">Data
+Carpentry: <strong>Genomics Lesson</strong></a></li>
+<li><a href="http://angus.readthedocs.io/en/2017/index.html">ANGUS:
+<strong>Analyzing High Throughput Sequencing Data; Exploratory RNAseq
+data analysis using RMarkdown</strong></a></li>
+<li><a
+href="https://www.rstudio.com/resources/webinars/"><strong>RStudio
+Webinars</strong>, many topics</a></li>
+<li><a href="https://ourcodingclub.github.io/"><strong>Coding
+Club</strong>, great resource with many tutorials</a></li>
 </ul>
 <div id="r-ebookscourses" class="section level4">
 <h4><em>R eBooks/Courses</em></h4>
 <ul>
-<li><a href="http://stat545.com/">Jenny Bryan’s <strong>Stat545.com</strong></a></li>
-<li><a href="http://r4ds.had.co.nz/">Garrett Grolemund and Hadley Wickham’s <strong>R For Data Science</strong></a></li>
-<li><a href="http://socviz.co/">Kieran Healy’s <strong>Data Visualization for Social Science</strong></a></li>
-<li><a href="http://www.datacarpentry.org/semester-biology/">Ethan White and Zack Brym’s <strong>Data Carpentry for Biologists</strong></a></li>
-<li><a href="https://ismayc.github.io/moderndiver-book/">Chester Ismay and Albert Y. Kim’s <strong>Modern DiveR</strong></a></li>
-<li><a href="https://csgillespie.github.io/efficientR/">Colin Gillespie and Robin Lovelace <strong>Efficient R Programming</strong></a></li>
-<li><a href="http://tidytextmining.com/">Julia Silge and David Robinson <strong>Text Mining with R</strong></a></li>
-<li><a href="http://adv-r.had.co.nz/">Hadley Wickham’s <strong>Advanced R</strong></a></li>
+<li><a href="http://stat545.com/">Jenny Bryan’s
+<strong>Stat545.com</strong></a></li>
+<li><a href="http://r4ds.had.co.nz/">Garrett Grolemund and Hadley
+Wickham’s <strong>R For Data Science</strong></a></li>
+<li><a href="http://socviz.co/">Kieran Healy’s <strong>Data
+Visualization for Social Science</strong></a></li>
+<li><a href="http://www.datacarpentry.org/semester-biology/">Ethan White
+and Zack Brym’s <strong>Data Carpentry for Biologists</strong></a></li>
+<li><a href="https://ismayc.github.io/moderndiver-book/">Chester Ismay
+and Albert Y. Kim’s <strong>Modern DiveR</strong></a></li>
+<li><a href="https://csgillespie.github.io/efficientR/">Colin Gillespie
+and Robin Lovelace <strong>Efficient R Programming</strong></a></li>
+<li><a href="http://tidytextmining.com/">Julia Silge and David Robinson
+<strong>Text Mining with R</strong></a></li>
+<li><a href="http://adv-r.had.co.nz/">Hadley Wickham’s <strong>Advanced
+R</strong></a></li>
 </ul>
 </div>
 <div id="gitgithub" class="section level4">
 <h4><em>Git/Github</em></h4>
 <ul>
-<li><a href="http://happygitwithr.com/">Jenny Bryan’s <strong>Happy Git and Github for the useR</strong></a></li>
-<li><a href="https://ourcodingclub.github.io/2017/02/27/git.html">Coding Club <strong>Intro to Github</strong></a></li>
-<li><a href="https://marthawohlfeil.github.io/2018-11-27-how-to-build-rmarkdown-website/">Martha Wohlfeil’s <strong>How to build a website</strong></a></li>
-<li><a href="https://github.com/rmcelreath/rethinking">Richard McElreath’s *<strong>Stat rethinking</strong></a></li>
+<li><a href="http://happygitwithr.com/">Jenny Bryan’s <strong>Happy Git
+and Github for the useR</strong></a></li>
+<li><a href="https://ourcodingclub.github.io/2017/02/27/git.html">Coding
+Club <strong>Intro to Github</strong></a></li>
+<li><a
+href="https://marthazillig.github.io/2018-11-27-how-to-build-rmarkdown-website/">Martha
+Wohlfeil’s <strong>How to build a website</strong></a></li>
+<li><a href="https://github.com/rmcelreath/rethinking">Richard
+McElreath’s *<strong>Stat rethinking</strong></a></li>
 </ul>
 </div>
 </div>
 <div id="presentations" class="section level3">
 <h3>Presentations</h3>
 <ul>
-<li><a href="https://youtu.be/taY6GrZ6vzE">Ryan Peek on using the <code>sf</code> package</a></li>
-<li><a href="https://youtu.be/CHBOVuo6RCo">Rich Pauloo on using RMarkdown</a></li>
-<li><a href="https://youtu.be/mHz4wxo-Q4U">Kate Tiedeman tutorial on using <code>raster</code></a></li>
-<li><a href="https://youtu.be/jgghG1K3740">Clark Fitzgerald on integrating the shell with R</a></li>
-<li><a href="https://youtu.be/8G6bBum3O9A">Myfanwy Johnston on unit testing (or code testing) in R</a></li>
-<li><a href="https://youtu.be/9q7gssUP8UA">Michael Levy tutorial on using the <code>tidyverse</code></a></li>
-<li><a href="http://d-rug.github.io/images/20171026/20171023_DRUG_map_walk.html#1">Brandon Hurr &quot;Intro to using <code>purrr</code></a></li>
-<li><a href="http://d-rug.github.io/blog/2016/hurr-dplyr2">Brandon Hurr “dplyr II: Joins and Set Operations”</a></li>
+<li><a href="https://youtu.be/taY6GrZ6vzE">Ryan Peek on using the
+<code>sf</code> package</a></li>
+<li><a href="https://youtu.be/CHBOVuo6RCo">Rich Pauloo on using
+RMarkdown</a></li>
+<li><a href="https://youtu.be/mHz4wxo-Q4U">Kate Tiedeman tutorial on
+using <code>raster</code></a></li>
+<li><a href="https://youtu.be/jgghG1K3740">Clark Fitzgerald on
+integrating the shell with R</a></li>
+<li><a href="https://youtu.be/8G6bBum3O9A">Myfanwy Johnston on unit
+testing (or code testing) in R</a></li>
+<li><a href="https://youtu.be/9q7gssUP8UA">Michael Levy tutorial on
+using the <code>tidyverse</code></a></li>
+<li><a
+href="http://d-rug.github.io/images/20171026/20171023_DRUG_map_walk.html#1">Brandon
+Hurr “Intro to using <code>purrr</code></a></li>
+<li><a href="http://d-rug.github.io/blog/2016/hurr-dplyr2">Brandon Hurr
+“dplyr II: Joins and Set Operations”</a></li>
 </ul>
 <p><br></p>
 </div>
@@ -396,7 +406,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -404,6 +414,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

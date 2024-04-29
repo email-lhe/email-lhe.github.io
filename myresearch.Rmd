@@ -7,8 +7,8 @@ title: "Liyuan's research"
 <br>
 <center> ## <font size=8x> **My labs**
 
-<center> ## <font size =6x> **Oak Ridge National Laboratory**
-## (<font color="#DAAA00"><font size =18x></font>**E**</font>cological <font color="#DAAA00">**M**</font>odeling <font color="#DAAA00">**A**</font>nd <font color="#DAAA00">**I**</font>ntegration <font color="#DAAA00">**L**</font>ab) {-}
+<center> ## <font size =6x> **ORNL**
+## (<font color="#DAAA00"><font size =18x></font>**O**</font>ak <font color="#DAAA00">**R**</font>idge <font color="#DAAA00">**N**</font>ational <font color="#DAAA00">**L**</font>aboratory) {-}
 [![Xu's Lab](img/ORNL-Logo.jpg){width=600px}](https://www.ornl.gov)
 <br>
 <br>
