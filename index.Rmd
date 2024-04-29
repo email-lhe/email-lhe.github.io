@@ -1,6 +1,3 @@
-
-<br>
-
 ---
 pagetitle: "Liyuan's personal website"
 title: "Liyuan's personal website"
