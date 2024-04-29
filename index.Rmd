@@ -53,7 +53,7 @@ date: "Updated: `r format(Sys.Date())`"
 
 * [Jenny Bryan's **Happy Git and Github for the useR**](http://happygitwithr.com/)
 * [Coding Club **Intro to Github**](https://ourcodingclub.github.io/2017/02/27/git.html)
-* [Martha Wohlfeil's **How to build a website**](https://marthawohlfeil.github.io/2018-11-27-how-to-build-rmarkdown-website/)
+* [Martha Wohlfeil's **How to build a website**](https://marthazillig.github.io/2018-11-27-how-to-build-rmarkdown-website/)
 * [Richard McElreath's ***Stat rethinking**](https://github.com/rmcelreath/rethinking)
 
 

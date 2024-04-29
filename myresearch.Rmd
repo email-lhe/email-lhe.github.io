@@ -2,10 +2,16 @@
 pagetitle: "Liyuan's research"
 title: "Liyuan's research"
 ---
-<left> <font size=4x> **Liyuan is working on improving the modeling performance of carbon cycle using clm-microbe in the perpective of soil microbes. Such findings can hopefully contribute to improve our understanding of the role of soil microbes in carbon cycle and soil processes.**
+<left> <font size=4x> **Liyuan is working on improving the modeling performance of carbon cycle using the CLM-Microbe and CoMEND in the perspective of soil microbes. Such findings can hopefully contribute to improving our understanding of the role of soil microbes in carbon cycle and soil processes and mitigating climate change by mitigation soil microbial communities.**
 <br>
 <br>
 <center> ## <font size=8x> **My labs**
+
+<center> ## <font size =6x> **Oak Ridge National Laboratory**
+## (<font color="#DAAA00"><font size =18x></font>**E**</font>cological <font color="#DAAA00">**M**</font>odeling <font color="#DAAA00">**A**</font>nd <font color="#DAAA00">**I**</font>ntegration <font color="#DAAA00">**L**</font>ab) {-}
+[![Xu's Lab](img/ORNL-Logo.jpg){width=600px}](https://www.ornl.gov)
+<br>
+<br>
 <center> ## <font size =6x> **Xu's Lab**
 ## (<font color="#DAAA00"><font size =18x></font>**E**</font>cological <font color="#DAAA00">**M**</font>odeling <font color="#DAAA00">**A**</font>nd <font color="#DAAA00">**I**</font>ntegration <font color="#DAAA00">**L**</font>ab) {-}
 [![Xu's Lab](img/email.png){width=600px}](http://sci.sdsu.edu/emaillab/)

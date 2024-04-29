@@ -5,7 +5,7 @@ title: "Contact Liyuan"
 <left> <font color="#151100"> <font size=6x>**Contact information**
 <br>
 
-<left> <font size=4x>  <i class="fa fa-envelope-square" aria-hidden="true"></i> [email](mailto:lyhe2012@gmail.com)  
+<left> <font size=4x>  <i class="fa fa-envelope-square" aria-hidden="true"></i> [email](mailto:lyhe2014@gmail.com)  
 [<left> <font size=4x> <i class="fa fa-globe" aria-hidden="true"></i> GitHub](https://github.com/email-lhe/)  
 [<left> <font size=4x> <i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter](https://twitter.com/he_liyuan/)
 <br>
