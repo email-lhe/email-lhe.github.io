@@ -1,0 +1,12 @@
+---
+author: "He, Liyuan; Lipson, David A; Mazza Rodrigues, Jorge L; Mayes, Melanie; Bj{\"o}rk, Robert G; Glaser, Bruno; Thornton, Peter; Xu, Xiaofeng"
+title: "Dynamics of fungal and bacterial biomass carbon in natural ecosystems: Site-level applications of the CLM-microbe model"
+publication: "Journal of Advances in Modeling Earth Systems"
+doi: "10.1029/2020MS002283"
+type: "article"
+year: 2021
+materials: ""
+toc: false
+---
+
+## Abstract

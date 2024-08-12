@@ -1,0 +1,299 @@
+---
+author: "He, Liyuan; Rodrigues, Jorge L. Mazza; Mayes, Melanie A.; Lai, Chun-Ta; Lipson, David A.; Xu, Xiaofeng"
+title: "Modeling microbial carbon fluxes and stocks in global soils from 1901 to 2016"
+publication: "Biogeosciences"
+doi: "10.5194/bg-21-2313-2024"
+type: "article"
+year: 2024
+materials: ""
+toc: false
+---
+
+## Abstract
+
+
+---
+author: "Wang, Yihui; He, Liyuan; Liu, Jianzhao; Arndt, Kyle A.; Rodrigues, Jorge L. Mazza; Zona, Donatella; Lipson, David A.; Oechel, Walter C.; Ricciuto, Daniel M.; Wullschleger, Stan D.; Xu, Xiaofeng"
+title: "Intensified Positive Arctic-Methane Feedback under IPCC Climate Scenarios in the 21st Century"
+publication: "Ecosystem Health and Sustainability"
+doi: "10.34133/ehs.0185"
+type: "article"
+year: 2024
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Wang, Junqi; He, Liyuan; Wang, Jieying; Liu, Yanfang; Ren, Chengjie; Wang, Jun; Guo, Yaoxin; Wang, Ninglian; Wang, Wenying; Zhao, Fazhu"
+title: "Contrasting potential impact patterns of unique and shared microbial species on nitrous oxide emissions in grassland soil on the Tibetan Plateau"
+publication: "Applied Soil Ecology"
+doi: "10.1016/j.apsoil.2023.105246"
+type: "article"
+year: 2024
+materials: ""
+toc: false
+---
+
+## Abstract
+
+
+---
+author: "Zhang, Lihua; Jia, Lizhi; He, Liyuan; Lipson, David A.; Wang, Yihui; Wang, Shunzhong; Xu, Xiaofeng"
+title: "Homeostatic evidence of management-induced phosphorus decoupling from soil microbial carbon and nitrogen metabolism"
+publication: "Journal of Plant Ecology"
+doi: "10.1093/jpe/rtad035"
+type: "article"
+year: 2023
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Guo, Ziyu; Wang, Yihui; Liu, Jianzhao; He, Liyuan; Zhu, Xinhao; Zuo, Yunjiang; Wang, Nannan; Yuan, Fenghui; Sun, Ying; Zhang, Lihua; Song, Yanyu; Song, Changchun; Xu, Xiaofeng"
+title: "Mapping turnover of dissolved organic carbon in global topsoil"
+publication: "Science of The Total Environment"
+doi: "10.1016/j.scitotenv.2023.167621"
+type: "article"
+year: 2024
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Wang, Jieying; Xu, Xiaofeng; Liu, Yanfang; Wang, Wenying; Ren, Chengjie; Guo, Yaoxin; Wang, Jun; Wang, Ninglian; He, Liyuan; Zhao, Fazhu"
+title: "Unknown bacterial species lead to soil CO2 emission reduction by promoting lactic fermentation in alpine meadow on the Qinghai-Tibetan Plateau"
+publication: "Science of The Total Environment"
+doi: "10.1016/j.scitotenv.2023.167610"
+type: "article"
+year: 2024
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Chen, Lan; Wang, Jieying; He, Liyuan; Xu, Xiaofeng; Wang, Jun; Ren, Chengjie; Guo, Yaoxin; Zhao, Fazhu"
+title: "Metagenomic highlight contrasting elevational pattern of bacteria- and fungi-derived compound decompositions in forest soils"
+publication: "Plant and Soil"
+doi: "10.1007/s11104-023-06104-5"
+type: "article"
+year: 2023
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Zuo, Yunjiang; Wang, Yihui; He, Liyuan; Wang, Nannan; Liu, Jianzhao; Yuan, Fenghui; Li, Kexin; Guo, Ziyu; Sun, Ying; Zhu, Xinhao; Zhang, Lihua; Song, Changchun; Sun, Li; Xu, Xiaofeng"
+title: "Modeling methane dynamics in three wetlands in Northeastern China by using the CLM-Microbe model"
+publication: "Ecosystem Health and Sustainability"
+doi: "10.1080/20964129.2022.2074895"
+type: "article"
+year: 2022
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Qiu, Tianyi; Yu, Jialuo; He, Liyuan; Liu, Ji; Cui, Qingliang; Cui, Yongxing; Duan, Chengjiao; Zhao, Shuling; Wang, Yunqiang; Fang, Linchuan"
+title: "Slope position mediates the co-utilization of phosphorus by plants and microbes through rhizosphere processes in a phosphorus-limited forest"
+publication: "CATENA"
+doi: "10.1016/j.catena.2022.106808"
+type: "article"
+year: 2023
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Wang, Yihui; Yuan, Fengming; Arndt, Kyle A.; Liu, Jianzhao; He, Liyuan; Zuo, Yunjiang; Zona, Donatella; Lipson, David A.; Oechel, Walter C.; Ricciuto, Daniel M.; Wullschleger, Stan D.; Thornton, Peter E.; Xu, Xiaofeng"
+title: "Upscaling Methane Flux From Plot Level to Eddy Covariance Tower Domains in Five Alaskan Tundra Ecosystems"
+publication: "Frontiers in Environmental Science"
+doi: "10.3389/fenvs.2022.939238"
+type: "article"
+year: 2022
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Wang, Jieying; He, Liyuan; Xu, Xiaofeng; Ren, Chengjie; Wang, Jun; Guo, Yaoxin; Zhao, Fazhu"
+title: "Linkage between microbial functional genes and net N mineralisation in forest soils along an elevational gradient"
+publication: "European Journal of Soil Science"
+doi: "10.1111/ejss.13276"
+type: "article"
+year: 2022
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Li, Dan; He, Liyuan; Qu, Jianguang; Xu, Xiaofeng"
+title: "Spatial evolution of cultivated land in the Heilongjiang Province in China from 1980 to 2015"
+publication: "Environmental Monitoring and Assessment"
+doi: "10.1007/s10661-022-10119-3"
+type: "article"
+year: 2022
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Zhou, Sha; Chen, Lan; Wang, Jieying; He, Liyuan; Wang, Jun; Ren, Chengjie; Guo, Yaoxin; Zhao, Fazhu"
+title: "Stronger microbial decay of recalcitrant carbon in tropical forests than in subtropical and temperate forest ecosystems in China"
+publication: "CATENA"
+doi: "10.1016/j.catena.2022.106351"
+type: "article"
+year: 2022
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Zhu, Xinhao; Yuan, Fenghui; He, Liyuan; Guo, Ziyu; Wang, Nannan; Zuo, Yunjiang; Liu, Jianzhao; Li, Kexin; Wang, Yihui; Sun, Ying; Zhang, Lihua; Song, Changchun; Song, Yanyu; Gong, Chao; Son, Yowhan; Guo, Dufa; Xu, Xiaofeng"
+title: "Wetland conversion to cropland alters the microbes along soil profiles and over seasons"
+publication: "CATENA"
+doi: "10.1016/j.catena.2022.106282"
+type: "article"
+year: 2022
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Hu, Han; He, Liyuan; Ma, Huanfei; Wang, Jieying; Li, Yi; Wang, Jun; Guo, Yaoxin; Ren, Chengjie; Bai, Hongying; Zhao, Fazhu"
+title: "Responses of AM fungal abundance to the drivers of global climate change: A meta-analysis"
+publication: "Science of The Total Environment"
+doi: "10.1016/j.scitotenv.2021.150362"
+type: "article"
+year: 2022
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "He, Liyuan; Xu, Xiaofeng"
+title: "Mapping soil microbial residence time at the global scale"
+publication: "Global Change Biology"
+doi: "10.1111/gcb.15864"
+type: "article"
+year: 2021
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Liang, Yue; He, Liyuan; Wang, Jieying; Liu, Yanfang; Wang, Wenying; Ren, Chengjie; Wang, Jun; Guo, Yaoxin; Wang, Ninglian; Zhao, Fazhu
+title: "Unique genes carried by abundant species enhance CH<sub>4</sub> emissions during the growing season at the Tibetan Plateau"
+publication: "Soil Ecology Letters"
+doi: "10.1007/s42832-023-0202-6"
+type: "article"
+year: 2021
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "He, Liyuan; Lai, Chun-Ta; Mayes, Melanie A.; Murayama, Shohei; Xu, Xiaofeng"
+title: "Microbial seasonality promotes soil respiratory carbon emission in natural ecosystems: A modeling study"
+publication: "Global Change Biology"
+doi: "10.1111/gcb.15627"
+type: "article"
+year: 2021
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Zhu, Xinhao; Zhang, Lihua; Zuo, Yunjiang; Liu, Jianzhao; Yu, Jielu; Yuan, Fenghui; Wang, Nannan; He, Liyuan; Wang, Yihui; Guo, Ziyu; Sun, Ying; Song, Yanyu; Song, Changchun; Guo, Dufa; Xu, Xiaofeng"
+title: "Wetland reclamation homogenizes microbial properties along soil profiles"
+publication: "Geoderma"
+doi: "10.1016/j.geoderma.2021.115075"
+type: "article"
+year: 2021
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "He, Liyuan; Rodrigues, Jorge L. Mazza; Soudzilovskaia, Nadejda A.; Barcelo, Milagros; Olsson, Pal Axel; Song, Changchun; Tedersoo, Leho; Yuan, Fenghui; Yuan, Fengming; Lipson, David A.; Xu, Xiaofeng"
+title: "Global biogeography of fungal and bacterial biomass carbon in topsoil"
+publication: "Soil Biology & Biochemistry"
+doi: "10.1016/j.soilbio.2020.108024"
+type: "article"
+year: 2020
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Guo, Ziyu; Wang, Yihui; Wan, Zhongmei; Zuo, Yunjiang; He, Liyuan; Li, Dan; Yuan, Fenghui; Wang, Nannan; Liu, Jianzhao; Song, Yanyu; Song, Changchun; Xu, Xiaofeng"
+title: "Soil dissolved organic carbon in terrestrial ecosystems: Global budget, spatial distribution and controls"
+publication: "Global Ecology and Biogeography"
+doi: "10.1111/geb.13186"
+type: "article"
+year: 2020
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "Xu, Xiaofeng; Wang, Nannan; Lipson, David; Sinsabaugh, Robert; Schimel, Josh; He, Liyuan; Soudzilovskaia, Nadejda A.; Tedersoo, Leho
+title: "Microbial macroecology: In search of mechanisms governing microbial biogeographic patterns"
+publication: "Global Ecology and Biogeography"
+doi: "10.1111/geb.13162"
+type: "article"
+year: 2020
+materials: ""
+toc: false
+---
+
+## Abstract
+
+---
+author: "He, Liyuan; Hu, Zhongmin; Guo, Qun; Li, Shenggong; Bai, Wenming; Li, Linghao"
+title: "Influence of nitrogen and phosphorus addition on the aboveground biomass in Inner Mongolia temperate steppe, China."
+publication: "Yingyong Shengtai Xuebao"
+type: "article"
+year: 2015
+materials: ""
+toc: false
+---
+
+## Abstract

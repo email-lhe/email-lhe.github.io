@@ -1,0 +1,12 @@
+---
+author: "Chen, Lan; Wang, Jieying; He, Liyuan; Xu, Xiaofeng; Wang, Jun; Ren, Chengjie; Guo, Yaoxin; Zhao, Fazhu"
+title: "Metagenomic highlight contrasting elevational pattern of bacteria- and fungi-derived compound decompositions in forest soils"
+publication: "Plant and Soil"
+doi: "10.1007/s11104-023-06104-5"
+type: "article"
+year: 2023
+materials: ""
+toc: false
+---
+
+## Abstract

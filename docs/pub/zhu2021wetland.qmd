@@ -1,0 +1,12 @@
+---
+author: "Zhu, Xinhao; Zhang, Lihua; Zuo, Yunjiang; Liu, Jianzhao; Yu, Jielu; Yuan, Fenghui; Wang, Nannan; He, Liyuan; Wang, Yihui; Guo, Ziyu; Sun, Ying; Song, Yanyu; Song, Changchun; Guo, Dufa; Xu, Xiaofeng"
+title: "Wetland reclamation homogenizes microbial properties along soil profiles"
+publication: "Geoderma"
+doi: "10.1016/j.geoderma.2021.115075"
+type: "article"
+year: 2021
+materials: ""
+toc: false
+---
+
+## Abstract

@@ -1,0 +1,12 @@
+---
+author: "Zhu, Xinhao; Yuan, Fenghui; He, Liyuan; Guo, Ziyu; Wang, Nannan; Zuo, Yunjiang; Liu, Jianzhao; Li, Kexin; Wang, Yihui; Sun, Ying; Zhang, Lihua; Song, Changchun; Song, Yanyu; Gong, Chao; Son, Yowhan; Guo, Dufa; Xu, Xiaofeng"
+title: "Wetland conversion to cropland alters the microbes along soil profiles and over seasons"
+publication: "CATENA"
+doi: "10.1016/j.catena.2022.106282"
+type: "article"
+year: 2022
+materials: ""
+toc: false
+---
+
+## Abstract

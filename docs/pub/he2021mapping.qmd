@@ -1,0 +1,12 @@
+---
+author: "He, Liyuan; Xu, Xiaofeng"
+title: "Mapping soil microbial residence time at the global scale"
+publication: "Global Change Biology"
+doi: "10.1111/gcb.15864"
+type: "article"
+year: 2021
+materials: ""
+toc: false
+---
+
+## Abstract

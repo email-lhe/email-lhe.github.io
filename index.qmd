@@ -1,0 +1,70 @@
+---
+title: "Liyuan He"
+resources: pdf/CV_Liyuan He.pdf
+about:
+  template: trestles
+  image: img/me.jpeg
+  
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/he_liyuan/
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/liyuan-he-b2010910b/
+    - icon: google
+      text: google scholar      
+      href: https://scholar.google.com/citations?user=Ur1lqXgAAAAJ&hl=en
+    - icon: envelope
+      text: email   
+      href: "mailto:hel4@ornl.gov"
+    - icon: file-text
+      text: CV   
+      href: pdf/CV_Liyuan He.pdf
+---
+
+:::{#hero-heading}
+
+</font>My research focuses on understanding the impacts of belowground organisms on carbon cycle under environmental change, including climate warming, elevated CO~2~, nitrogen deposition, wildfires, plant invasion, and land use change. The major approaches I used in my research include:
+
+- Compiling comprehensive datasets for understanding the biogeography of belowground organisms.
+- Using machine learning and deep learning approaches to generate novel datasets.
+- Applying process-based microbial and Earth system models to understand the underlying mechanisms and project carbon cycle under future climates.
+- Empowering microbial models with genetic data by informing microbe-mediated biogeochemical processes with high-resolution genome information.
+
+
+## **Academic Appointment**
+
+**Oak Ridge National Laboratory, Oak Ridge, TN** | Apr 2024 - now
+
+- Postdoctoral Research Associate | Environmental Science Division
+- Advisor: Dr. Melanie Mayes
+
+**San Diego State University, San Diego, CA** | May 2022-Apr 2024
+
+- Postdoctoral Research Associate | Department of Biology
+- Advisor: Dr. Xiaofeng Xu
+
+
+## **Education**
+
+**University of California at Davis & San Diego State University, CA** | Sep 2017 - Jun 2022
+
+- Doctor of Philosophy in Ecology | GPA: 3.95/4.0
+- QE committee: Drs. Valerie Eviner (Chair), William Horwath, Chun-Ta Lai, David Lipson, and Fernando De Sales 
+- Dissertation committee: Drs. Xiaofeng Xu (Chair), Jorge Rodrigues, Chun-Ta Lai, David Lipson, and Melanie Mayes
+- Dissertation: [Multi-scale Modeling of Soil Microbial Control on Terrestrial Carbon Cycle](https://www.proquest.com/dissertations-theses/multi-scale-modeling-soil-microbial-control-on/docview/2770033863/se-2?accountid=26379)
+	
+**Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing, China** | Jun 2017
+
+- Master of Science in Ecology
+- Advisor: Dr. Zhongmin Hu
+
+**Northeast Forestry University, Harbin, China** | Jun 2014
+
+- Bachelor of Agronomy in Forestry
+- GPA: 3.98/4.0
+- Rank: 1/28 in Department of Forestry		
+
+:::
+

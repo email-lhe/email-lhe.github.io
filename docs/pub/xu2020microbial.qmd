@@ -1,0 +1,12 @@
+---
+author: "Xu, Xiaofeng; Wang, Nannan; Lipson, David; Sinsabaugh, Robert; Schimel, Josh; He, Liyuan; Soudzilovskaia, Nadejda A.; Tedersoo, Leho"
+title: "Microbial macroecology: In search of mechanisms governing microbial biogeographic patterns"
+publication: "Global Ecology and Biogeography"
+doi: "10.1111/geb.13162"
+type: "Article"
+year: 2020
+materials: ""
+toc: false
+---
+
+## Abstract
