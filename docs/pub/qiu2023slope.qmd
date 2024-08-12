@@ -1,0 +1,12 @@
+---
+author: "Qiu, Tianyi; Yu, Jialuo; He, Liyuan; Liu, Ji; Cui, Qingliang; Cui, Yongxing; Duan, Chengjiao; Zhao, Shuling; Wang, Yunqiang; Fang, Linchuan"
+title: "Slope position mediates the co-utilization of phosphorus by plants and microbes through rhizosphere processes in a phosphorus-limited forest"
+publication: "CATENA"
+doi: "10.1016/j.catena.2022.106808"
+type: "article"
+year: 2023
+materials: ""
+toc: false
+---
+
+## Abstract

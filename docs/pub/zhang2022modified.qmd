@@ -1,0 +1,12 @@
+---
+author: "Zhang, Jianshuang; Zhang, Yangjian; Fan, Wenyi; He, Liyuan; Yu, Ying; Mao, Xuegang"
+title: "A modified two-steps three-stage inversion algorithm for forest height inversion using single-baseline l-band Polinsar data"
+publication: "Remote Sensing"
+doi: "10.3390/rs14091986"
+type: "article"
+year: 2022
+materials: ""
+toc: false
+---
+
+## Abstract

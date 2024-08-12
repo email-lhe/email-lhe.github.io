@@ -1,0 +1,12 @@
+---
+author: "Hu, Han; He, Liyuan; Ma, Huanfei; Wang, Jieying; Li, Yi; Wang, Jun; Guo, Yaoxin; Ren, Chengjie; Bai, Hongying; Zhao, Fazhu"
+title: "Responses of AM fungal abundance to the drivers of global climate change: A meta-analysis"
+publication: "Science of The Total Environment"
+doi: "10.1016/j.scitotenv.2021.150362"
+type: "article"
+year: 2022
+materials: ""
+toc: false
+---
+
+## Abstract

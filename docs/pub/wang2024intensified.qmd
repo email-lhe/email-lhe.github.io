@@ -1,0 +1,12 @@
+---
+author: "Wang, Yihui; He, Liyuan; Liu, Jianzhao; Arndt, Kyle A.; Rodrigues, Jorge L. Mazza; Zona, Donatella; Lipson, David A.; Oechel, Walter C.; Ricciuto, Daniel M.; Wullschleger, Stan D.; Xu, Xiaofeng"
+title: "Intensified Positive Arctic-Methane Feedback under IPCC Climate Scenarios in the 21st Century"
+publication: "Ecosystem Health and Sustainability"
+doi: "10.34133/ehs.0185"
+type: "article"
+year: 2024
+materials: ""
+toc: false
+---
+
+## Abstract

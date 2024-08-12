@@ -1,0 +1,12 @@
+---
+author: "Li, Dan; He, Liyuan; Qu, Jianguang; Xu, Xiaofeng"
+title: "Spatial evolution of cultivated land in the Heilongjiang Province in China from 1980 to 2015"
+publication: "Environmental Monitoring and Assessment"
+doi: "10.1007/s10661-022-10119-3"
+type: "article"
+year: 2022
+materials: ""
+toc: false
+---
+
+## Abstract

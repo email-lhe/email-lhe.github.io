@@ -1,0 +1,12 @@
+---
+author: "Wang, Yihui; Yuan, Fengming; Arndt, Kyle A.; Liu, Jianzhao; He, Liyuan; Zuo, Yunjiang; Zona, Donatella; Lipson, David A.; Oechel, Walter C.; Ricciuto, Daniel M.; Wullschleger, Stan D.; Thornton, Peter E.; Xu, Xiaofeng"
+title: "Upscaling Methane Flux From Plot Level to Eddy Covariance Tower Domains in Five Alaskan Tundra Ecosystems"
+publication: "Frontiers in Environmental Science"
+doi: "10.3389/fenvs.2022.939238"
+type: "article"
+year: 2022
+materials: ""
+toc: false
+---
+
+## Abstract

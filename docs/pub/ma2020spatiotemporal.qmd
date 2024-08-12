@@ -1,0 +1,12 @@
+---
+author: "Ma, Jinge; Duan, Hongtao; He, Liyuan; Tiffany, Mary; Cao, Zhigang; Qi, Tianci; Shen, Ming; Biggs, Trent; Xu, Xiaofeng"
+title: "Spatiotemporal pattern of gypsum blooms in the Salton Sea, California, during 2000-2018"
+publication: "International Journal of Applied Earth Observation and Geoinformation"
+doi: "10.1016/j.jag.2020.102090 "
+type: "article"
+year: 2020
+materials: ""
+toc: false
+---
+
+## Abstract
