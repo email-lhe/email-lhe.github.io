@@ -1,0 +1,18 @@
+---
+date: today
+date-format: "MMM D, YYYY"
+---
+
+# Interested in working together?
+
+I am actively looking for opportunities of collaborating with ecologists, microbiologists, and modelers on academic research (e.g., publications or proposals), potential research foci that may intrigue collaboration include but not limited to: 
+
+- Improve our understanding of microbial ecology by implementing field and lab experiment.
+
+- Advance our understanding of the Soil microbe-Carbon cycle-Climate system by integrating observational networks (e.g., NEON), eddy covariance measurements, remote sensing, and global databases with Earth system models that incorporate microbial mechanisms in biogeochemical cycling.
+
+- Investigate how soil microbes respond to environmental change (e.g., nitrogen deposition, climate warming, elevated CO~2~, changing precipitation, wildfires, etc.) in terrestrial ecosystems ecosystems, such as forests, grasslands, Mediterranean shrublands, and permafrost, by applying microbial models or implementing experiments.
+
+- Empower soil microbial models with genetic data through contributing genetic data and appropriate interpretation of how to use the data. 
+
+Please feel free to [contact me](mailto:hel4.he@ornl.gov). 

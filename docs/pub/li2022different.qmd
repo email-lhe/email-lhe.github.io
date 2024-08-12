@@ -1,0 +1,12 @@
+---
+author: "Li, Yi; Wang, Jieying; He, Liyuan; Xu, Xiaofeng; Wang, Jun; Ren, Chengjie; Guo, Yaoxin; Zhao, Fazhu"
+title: "Different mechanisms driving increasing abundance of microbial phosphorus cycling gene groups along an elevational gradient"
+publication: "Iscience"
+doi: "10.1016/j.isci.2022.105170"
+type: "article"
+year: 2022
+materials: ""
+toc: false
+---
+
+## Abstract

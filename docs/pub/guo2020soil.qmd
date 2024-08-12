@@ -1,0 +1,12 @@
+---
+author: "Guo, Ziyu; Wang, Yihui; Liu, Jianzhao; He, Liyuan; Zhu, Xinhao; Zuo, Yunjiang; Wang, Nannan; Yuan, Fenghui; Sun, Ying; Zhang, Lihua; Song, Yanyu; Song, Changchun; Xu, Xiaofeng"
+title: "Mapping turnover of dissolved organic carbon in global topsoil"
+publication: "Science of The Total Environment"
+doi: "10.1016/j.scitotenv.2023.167621"
+type: "article"
+year: 2024
+materials: ""
+toc: false
+---
+
+## Abstract

@@ -1,0 +1,12 @@
+---
+author: "Wang, Junqi; He, Liyuan; Wang, Jieying; Liu, Yanfang; Ren, Chengjie; Wang, Jun; Guo, Yaoxin; Wang, Ninglian; Wang, Wenying; Zhao, Fazhu"
+title: "Contrasting potential impact patterns of unique and shared microbial species on nitrous oxide emissions in grassland soil on the Tibetan Plateau"
+publication: "Applied Soil Ecology"
+doi: "10.1016/j.apsoil.2023.105246"
+type: "article"
+year: 2024
+materials: ""
+toc: false
+---
+
+## Abstract
