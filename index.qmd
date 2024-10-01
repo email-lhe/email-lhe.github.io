@@ -27,9 +27,10 @@ about:
 
 </font>My research focuses on understanding the impacts of soil microbial community on carbon cycle under environmental change, including climate warming, elevated CO~2~, nitrogen deposition, wildfires, plant invasion, and land use change, using a data-model appraoch. The major approaches I used in my research include:
 
-- Compiling comprehensive datasets for understanding the biogeography of belowground organisms.
+- Compiling comprehensive datasets for understanding the biogeography of soil microbial community.
 - Using machine learning and deep learning approaches to generate novel datasets.
-- Applying process-based microbial and Earth system models to understand the underlying mechanisms and project carbon cycle under future climates.
+- Improving ecosystem and Earth system models by incorporating explicit soil microbial mechanisms.
+- Applying the improved ecosystem and Earth system models with explicit soil microbial mechanisms to project carbon cycle under global change and understand the underlying mechanisms.
 - Empowering microbial models with genetic data by informing microbe-mediated biogeochemical processes with high-resolution genome information.
 
 

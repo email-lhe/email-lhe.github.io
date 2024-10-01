@@ -1,0 +1,12 @@
+---
+author: "Ren, Yiming; Zao, Yangxinzi; Zhao, Ying; Su, Rui; Yang, Guowei; Li, Xiran; Kang, Jingru; Shi, Yiyu; Xie, Yuru; Wang, Nannan; Zuo, Yunjiang; Li, Kexin; He, Liyuan; Xu, Xiaofeng; Zhang, Lihua"
+title: "Association between CH4 uptake and N2O emission in grassland depends on nitrogen inputs"
+publication: "Journal of Plant Ecology"
+doi: "10.1093/jpe/rtae078"
+type: "article"
+year: 2024
+materials: ""
+toc: false
+---
+
+## Abstract

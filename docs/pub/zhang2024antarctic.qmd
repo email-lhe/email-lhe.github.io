@@ -1,0 +1,12 @@
+---
+author: "Zhang, Lujie; Zhao, Xue; Wang, Jieying; He, Liyuan; Ren, Chengjie; Wang, Jun; Guo, Yaoxin; Wang, Ninglian; Zhao, Fazhu"
+title: "Antarctic Soils Select Copiotroph-Dominated Bacteria"
+publication: "Microorganisms"
+doi: "doi:10.3390/microorganisms12081689"
+type: "article"
+year: 2024
+materials: ""
+toc: false
+---
+
+## Abstract
